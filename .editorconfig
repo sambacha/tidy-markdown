@@ -4,16 +4,23 @@
 root = true
 
 [*]
-end_of_line = lf
-charset = utf-8
-insert_final_newline = true
-trim_trailing_whitespace = true
 indent_style = space
 indent_size = 2
-max_line_length = 80
+tab_width = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
 
+# Makefile GNU
 [Makefile]
 indent_style = tab
 
-[{*.md,*.json}]
-max_line_length = null
+# JavaScript, JSON, JSX, JavaScript Modules, TypeScript
+# https://github.com/feross/standard
+# https://prettier.io
+[*.{cjs,js,json,jsx,mjs,ts,tsx}]
+indent_size = 2
+indent_style = space
+
+
