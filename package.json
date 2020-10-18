@@ -31,12 +31,12 @@
     "styleguide"
   ],
   "license": "GPL-3.0",
-  "main": "lib",
+  "main": "src",
   "repository": "git://github.com/sambacha/tidy-markdown.git",
   "scripts": {
     "test": "make test"
   },
   "files": [
-    "lib/*"
+    "src/*"
   ]
 }
